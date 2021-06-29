@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="popup.css">
+    </head>
+    <body>
+        <div id="app">
+            <h1 class="title">Youtube Recommend Remover</h1>
+            <hr>
+            <br>
+            <div class="checker">
+                <div>
+                    <div class="label-text">메인페이지 추천영상</div>
+                    <label class="switch">
+                        <input type="checkbox" id="main-checkbox" checked />
+                        <span class="slider round"></span>
+                    </label>
+                </div>
+                <div>
+                    <div class="label-text">사이드바 추천영상</div>
+                    <label class="switch">
+                        <input type="checkbox" id="sidebar-checkbox" checked />
+                        <span class="slider round"></span>
+                    </label>
+                </div>
+                <div>
+                    <div class="label-text">영상 끝날때 추천영상</div>
+                    <label class="switch">
+                        <input type="checkbox" id="last-checkbox" checked />
+                        <span class="slider round"></span>
+                    </label>
+                </div>
+                <div>
+                    <div class="label-text">자동재생 끄기</div>
+                    <label class="switch">
+                        <input type="checkbox" id="auto-checkbox" checked />
+                        <span class="slider round"></span>
+                    </label>
+                </div>
+                <div>
+                    <div class="label-text">댓글 안보이게 하기</div>
+                    <label class="switch">
+                        <input type="checkbox" id="comment-checkbox" checked />
+                        <span class="slider round"></span>
+                    </label>
+                </div>
+            </div>
+        </div>
+        <script src="popup.js"></script>
+    </body>
+</html>
